@@ -1,4 +1,6 @@
-;; Where victorquinn is mentioned, refer to https://github.com/victorquinn/dotfiles
+;; General Settings
+
+(setq inhibit-startup-message t)
 
 ;; Theming
 (custom-set-variables
