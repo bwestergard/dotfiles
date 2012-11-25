@@ -1,6 +1,7 @@
 ;; General Settings
 
 (setq inhibit-startup-message t)
+(setq make-backup-files nil)
 
 ;; Theming
 (custom-set-variables
