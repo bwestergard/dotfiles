@@ -32,6 +32,11 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
+(custom-set-variables ;; Hopefully diminish wonkiness of default indentation scheme.
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p t)
+)
+
 ;; Org Mode Settings
 
 (setq org-log-done 'time) ; Taken from victorquinn
