@@ -12,7 +12,9 @@
  '(ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(custom-enabled-themes (quote (wombat)))
  '(js2-basic-offset 2)
- '(js2-highlight-level 3))
+ '(js2-bounce-indent-p t)
+ '(js2-highlight-level 3)
+ '(org-agenda-files (quote ("/media/VERBATIM/org/"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -32,10 +34,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
-(custom-set-variables ;; Hopefully diminish wonkiness of default indentation scheme.
- '(js2-basic-offset 2)
- '(js2-bounce-indent-p t)
-)
+
 
 ;; Org Mode Settings
 
