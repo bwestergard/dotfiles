@@ -14,7 +14,7 @@
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p t)
  '(js2-highlight-level 3)
- '(org-agenda-files (quote ("/media/VERBATIM/org/"))))
+ '(org-agenda-files nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -26,15 +26,15 @@
 (setq tramp-default-method "ssh")
 
 ;; Javascript Mode
-(autoload 'js2-mode "js2" nil t)
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq js-indent-level 2)
+(setq indent-line-function 'insert-tab)
 
 (require 'package)
 
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
-
-
 
 ;; Org Mode Settings
 
@@ -44,3 +44,5 @@
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
+
+(setq org-agenda-files (list "~/org"))
