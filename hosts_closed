@@ -1,0 +1,36 @@
+127.0.0.1	localhost
+
+# Streaming
+127.0.0.1 youtube.com
+127.0.0.1 www.youtube.com
+
+# Social Media
+127.0.0.1 www.reddit.com
+127.0.0.1 reddit.com
+127.0.0.1 www.facebook.com
+127.0.0.1 facebook.com
+127.0.0.1 www.twitter.com
+127.0.0.1 twitter.com
+
+# Feedly
+127.0.0.1 www.feedly.com
+127.0.0.1 feedly.com
+
+# Group Blogs
+127.0.0.1 news.ycombinator.com
+127.0.0.1 hckrnews.com
+127.0.0.1 metafilter.com
+127.0.0.1 www.metafilter.com
+127.0.0.1 ask.metafilter.com
+
+# Slack
+127.0.0.1 lxw.slack.com
+127.0.0.1 techworkersco.slack.com
+
+# News
+127.0.0.1 ft.com
+127.0.0.1 www.ft.com
+127.0.0.1 nyt.com
+127.0.0.1 www.nyt.com
+127.0.0.1 economist.com
+127.0.0.1 www.economist.com
